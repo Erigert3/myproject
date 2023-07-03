@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: rgba(68, 98, 95, 0.189);
+}
+header {
+  background-color: rgba(41, 71, 68, 0.89);
+  color: rgb(218, 221, 221);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+header h1,
+address {
+  padding-left: 30px;
+}
+address {
+  border-top: 1px dashed rgba(21, 35, 37, 0.5);
+  border-bottom: 1px dashed rgba(21, 35, 37, 0.5);
+}
+section {
+  padding: 10px 20px;
+  background-color: rgba(46, 75, 72, 0.301);
+  border-radius: 8px;
+  margin: 10px;
+}
+.skills {
+  float: left;
+  width: 230px;
+  clear: left;
+}
+.content {
+  width: 80%;
+  margin-left: 250px;
+}
+th {
+  text-align: left;
+}
+td {
+  border-left: 2px solid rgba(35, 33, 33, 0.66);
+  padding-left: 5px;
+}
+table {
+  row-gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1, h2, h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h3 {
+  font-style: oblique;
+}
+p, table {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: medium;
+}

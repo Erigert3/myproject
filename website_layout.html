@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming School</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      #nav-ul {
+        list-style-type: none;
+        height: 50px;
+        width: 100%;
+        background-color: darkslategray;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: sticky;
+        top: 0px;
+      }
+      .sticky-nav-item {
+        padding: 16px 16px;
+        float: left;
+      }
+      .sticky-nav-item a {
+        text-decoration: none;
+        color: white;
+      }
+      .sticky-nav-item:hover {
+        background-color: rgb(40, 88, 86);
+      }
+      #sidebar {
+        width: 200px;
+        height: 100%;
+        overflow: scroll;
+        position: fixed;
+        top: 50px;
+        background-color: rgb(4, 28, 28);
+        margin-right: 20px;
+      }
+      #side-menu {
+        list-style-type: none;
+        padding: 0px;
+      }
+      #side-menu li {
+        color: white;
+        padding: 3px 20px 3px 20px;
+      }
+      #main {
+        margin: 50px 70px 50px 250px;
+        overflow-x: auto;
+      }
+      #side-menu li:hover {
+        background-color: black;
+      }
+      #side-menu a {
+        text-decoration: none;
+        color: white;
+      }
+      h1,h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      table,td,th{
+        border: 2px solid rgb(6, 45, 88);
+        border-collapse: collapse;
+        border-radius: 2%;
+      }
+      .table-link:hover{
+        background-color: rgb(96, 96, 130);
+      }
+      .table-link:hover a{
+        color: white;
+      }
+      table a{
+        text-decoration: none;
+        color: black;
+      }
+      .programming-lang{
+        background-color: rgba(117, 139, 148, 0.308);
+        border-radius: 10px;
+      }
+      .programming-lang h2,p{
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+
+  <body style="margin: auto; background-color: aliceblue;">
+    <ul id="nav-ul">
+      <li class="sticky-nav-item"><a href="#"> HOME </a></li>
+      <li class="sticky-nav-item"><a href="#"> TUTORIALS </a></li>
+      <li class="sticky-nav-item"><a href="#"> REFERENCES </a></li>
+      <li class="sticky-nav-item"><a href="#"> EXERCISES </a></li>
+    </ul>
+
+    <div id="content">
+      <div id="sidebar">
+        <ul id="side-menu">
+          <li style="text-transform: uppercase; font-size: large">Lessons</li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+        </ul>
+      </div>
+
+      <div id="main">
+        <h1>What is programming? And How To Get Started</h1>
+        <p>
+          Programming refers to a technological process for telling a computer
+          which tasks to perform in order to solve problems. You can think of
+          programming as a collaboration between humans and computers, in which
+          humans create instructions for a computer to follow (code) in a
+          language computers can understand. Programming enables so many things
+          in our lives. Here are some examples: <br>
+          <ul style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            <li>When you browse a website to find information, 
+              contact a service provider, or make a purchase, 
+              programming allows you to interact with the site’s 
+              on-page elements, such as sign-up or purchase buttons, 
+              contact forms, and drop-down menus.</li>
+            <li>The programming behind a mobile app can make it 
+                possible for you to order food, book a rideshare 
+                service, track your fitness, access media, and more
+                with ease. </li>
+            <li>Programming helps businesses operate more efficiently 
+              through different software for file storage and automation 
+              and video conferencing tools to connect people globally, 
+              among other things. </li>
+          </ul>
+          <br>
+        </p>
+        <h2>How does computer programming work?</h2>
+        <p>At its most basic, programming tells a computer what to do. 
+          First, a programmer writes code—a set of letters, numbers, 
+          and other characters. Next, a compiler converts each line of 
+          code into a language a computer can understand. Then, the 
+          computer scans the code and executes it, thereby performing a 
+          task or series of tasks. Tasks might include displaying an image
+          on a webpage or changing the font of a section of text.</p> <br>
+        <h2>Most used programming languages</h2>
+        <p>Different programming languages enable programmers to write 
+          code that computers understand. According to a survey by Statista, 
+          the top five programming languages that developers use as of 
+          June 2022 are: </p> <br> 
+          <table style="margin-left: 350px;">
+            <tr>
+              <th>Progrmming Language</th>
+              <th>Popularity</th>
+            </tr>
+            <tr>
+              <td class="table-link"><a href="#js">JavaScript</a></td>
+              <td>65.36%</td>
+            </tr>
+            <tr>
+              <td class="table-link"><a href="#html">HTML/CSS</a></td>
+              <td>55.08%</td>
+            </tr>
+            <tr>
+              <td class="table-link"><a href="#sql">SQL</a></td>
+              <td>49.43%</td>
+            </tr>
+            <tr>
+              <td class="table-link"><a href="#py">Python</a></td>
+              <td>48.07%</td>
+            </tr>
+            <tr>
+              <td class="table-link"><a href="#ts">TypeScript</a></td>
+              <td>34.83%</td>
+            </tr>
+          </table> <br>
+        <h2>Types of programming languages</h2>  
+        <p>While hundreds of programming languages (if not thousands) exist, 
+          and there are many ways to classify them, they typically can be 
+          grouped into five main categories:</p>
+          <ol>
+            <li>Procedural programming languages</li>
+            <li>Functional programming languages</li>
+            <li>Object-oriented programming languages</li>
+            <li>Scripting languages</li>
+            <li>Logic programming languages</li>
+          </ol> <br>
+
+        <div class="programming-lang">
+          <h2 id="js">JavaScript</h2>
+        <p>This language is used on every major web browser. 
+          JavaScript allows you to add complex features to a web page, 
+          such as content updates, interactive maps, and animated 
+          graphics, develop games, and more.   
+          Read more: Java vs. JavaScript: What's the Difference?</p>   
+        </div> 
+        <br>
+
+        <div class="programming-lang">
+          <h2 id="html">HTML/CSS</h2> 
+          <p>These languages are used to create web pages and web applications. 
+            You would use HTML (HyperText Markup Language) to build web page 
+            structure, while CSS (Cascading Style Sheets) would enable you to 
+            determine the page’s styling.   
+            Read more: Easiest Programming Languages to Learn for Front-End Development</p> 
+        </div>
+        <br>
+
+        <div class="programming-lang">
+          <h2 id="sql">SQL</h2>
+        <p>SQL stands for Structured Query Language and is used to communicate 
+          with databases, including updating and retrieving data.
+          Read more: What Does an SQL Developer Do? Role, Salary, and Skills</p> 
+        </div>
+        <br>
+
+        <div class="programming-lang">
+          <h2 id="py">Python</h2>
+        <p>Python programming is most used in machine learning, web development, 
+          and desktop applications. Python is a popular language among beginners, 
+          as the syntax is relatively easy to learn. It is known as an object-oriented 
+          programming language.
+          Read more: Why Learn About Object-Oriented Programming Languages?  </p> 
+        </div>
+        <br>
+
+        <div class="programming-lang">
+            <h2 id="ts">TypeScript</h2>
+        <p>TypeScript is a free, open-source programming language developed by Microsoft 
+          as a superset of JavaScript. It’s used for developing large applications. 
+          Read more: Popular Programming Languages in 2022</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
